@@ -41,10 +41,6 @@ nav {
 
 }
 
-.dropdownbtn img {
-    height: 20px;
-    align-items: center;
-}
 
 nav a {
     text-decoration: none;
@@ -114,7 +110,8 @@ nav a:active {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {color: darkred;}
+  .dropdown-content a:hover {
+    color: darkred;}
   
   /* Show the dropdown menu on hover */
   .dropdown:active .dropdown-content {
@@ -130,6 +127,8 @@ nav a:active {
     color: white;
  
   }
+
+  /* Overskrift */
 
   .overskrift {
     background-color: white;
