@@ -11,6 +11,7 @@ header {
     position: fixed;
     Top: 0px;
     height: 70px;
+    z-index: 1;
 
 }
 
@@ -69,6 +70,7 @@ nav a:active {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 /* DROPDOWN EKSEMPEL*/
@@ -132,16 +134,110 @@ nav a:active {
 
   .overskrift {
     background-color: white;
-    height: 150px;
-    border-bottom: 3px lightgrey solid;
+    height: 175px;
+    border-bottom: 1px black solid;
+    margin-bottom: 100px;
   }
 
   .overskrift h2 {
-    font-size: 100px;
+    font-size: 120px;
     font-family: 'Times New Roman', Times, serif;
     background-color: white;
     font-weight: 100;
     text-transform: uppercase ;
     position: relative;
-    top: 15px;
+    top: 110px;
+    left: 40px;
+    width: 350px;
   }
+
+/*Article cards*/
+
+  .article_overskrift {
+    width: 100%;
+    background-color:
+    #f7f4f0
+    ;
+    text-align: center;
+    padding-top: 75px ;
+    padding-bottom: 50px;
+  }
+  
+  .article_overskrift h3 {
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding-bottom: 10px;
+  }
+  
+  .article_overskrift hr {
+    width: 100px;
+   margin: auto;
+  
+  }
+
+
+.article_cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: 
+  #f7f4f0
+  ;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.article_cards a {
+  text-decoration: none;
+  color: black;
+}
+
+.imageplaceholder {
+  background-color: aqua;
+  height: 290px;
+  width: 280px;
+}
+
+.cards_image {
+  background-color: white;
+  width: 280px;
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+.article_cards h4 {
+ text-transform: uppercase;
+ padding-top: 25px;
+ font-family: Arial, Helvetica, sans-serif; 
+ font-weight: 100;
+ font-size: 16px;
+ color: grey;
+}
+
+.article_cards hr {
+  width: 30px;
+   margin: 10px auto 10px auto;
+}
+
+.article_cards p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight:lighter;
+  padding: 0px 25px 10px 25px;
+}
+
+.cards_image .author {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: grey;
+  padding-top: 10px;
+}
+
+
+
+
